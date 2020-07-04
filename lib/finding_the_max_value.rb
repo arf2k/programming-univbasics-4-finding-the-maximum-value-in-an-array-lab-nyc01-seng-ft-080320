@@ -1,4 +1,4 @@
 def find_max_value(array)
-  array.each do |x|
-    x.max 
+  array.each.max do |x|
+    return x 
 end
