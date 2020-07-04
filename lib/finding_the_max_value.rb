@@ -1,4 +1,5 @@
 def find_max_value(array)
-  array.each.max do |x|
-    return x 
+  count = 0 
+  while count < array.length do 
+    
 end
